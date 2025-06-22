@@ -41,11 +41,11 @@ export default function Footer() {
                     <p>Início</p>
                 </Link>
 
-                <button onClick={() => scrollTo('services')} className="text-xl font-semibold hover:underline transition duration-300">
+                <button onClick={() => scrollTo('services')} className="text-xl font-semibold hover:underline transition duration-300 cursor-pointer">
                     <p>Serviços</p>
                 </button>
 
-                <button onClick={() => scrollTo('portfolio')} className="text-xl font-semibold hover:underline transition duration-300">
+                <button onClick={() => scrollTo('portfolio')} className="text-xl font-semibold hover:underline transition duration-300 cursor-pointer">
                     <p>Portfólios</p>
                 </button>
 

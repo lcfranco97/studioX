@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎨 StudioX - Landing Page para Estúdio de Design
 
-## Getting Started
+![StudioX Screenshot](./studiox.png) 
 
-First, run the development server:
+---
+
+## 📌 Descrição do Projeto
+
+**StudioX** é uma landing page moderna desenvolvida para um estúdio de design que oferece serviços como **Branding de Marca**, **Web Design** e **UI/UX Design**.
+
+O principal objetivo deste projeto foi criar uma interface com forte apelo visual e interativo, utilizando **animações de background com Vanta.js (Three.js)**, além de aplicar **boas práticas de responsividade**, **design moderno** e foco na **experiência do usuário**.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Next.js (App Router)
+- React.js
+- Tailwind CSS
+- Vanta.js (Three.js) – para o background animado tipo "Net"
+- JavaScript (ES6+)
+- Framer Motion (animações de elementos)
+
+---
+
+## 🚀 Funcionalidades
+
+- ✅ Landing Page com foco comercial
+- ✅ Seções de serviços: Branding, Web Design e UI/UX
+- ✅ Background animado com efeito NET via Vanta.js/Three.js
+- ✅ Layout responsivo (Mobile First)
+- ✅ Animações suaves com Framer Motion
+- ✅ Deploy na Vercel
+
+---
+
+## 📷 Demonstração
+
+👉 Acesse o deploy online:  
+🔗 [https://studio-x-lf.vercel.app/](https://studio-x-wheat.vercel.app/)
+
+---
+
+## 💻 Como Rodar o Projeto Localmente
+
+### 1. Clone o repositório:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/lcfranco97/studioX.git
+```
+### 2. Acesse a pasta do projeto:
+```bash
+cd studioX
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3. Instale as dependências:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 4. Rode o servidor de desenvolvimento:
+```bash
+npm run dev
+```
+### 5. Acesse no navegador:
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 💡 Aprendizados com o Projeto
+Durante o desenvolvimento do FilmFlow, pratiquei:
 
-To learn more about Next.js, take a look at the following resources:
+- Integração de bibliotecas de animação de background (Vanta.js / Three.js)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Criação de landing pages com foco em design e usabilidade
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Estruturação de componentes React com Next.js (App Router)
 
-## Deploy on Vercel
+- Uso avançado de Tailwind CSS para estilização
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Animações de elementos com Framer Motion
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Deploy otimizado na Vercel
+
+---
+
+## 📞 Contato
+
+- LinkedIn: [https://www.linkedin.com/in/lucas-franco-39579b208/](https://www.linkedin.com/in/lucas-franco-39579b208/)
+- GitHub: [https://github.com/lcfranco97](https://github.com/lcfranco97)
+- Portfólio: [https://portfolio-lc.vercel.app/](https://portfolio-lc.vercel.app/)
